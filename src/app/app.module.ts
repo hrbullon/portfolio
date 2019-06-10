@@ -15,6 +15,8 @@ import { RawComponent } from './pages/portfolio/raw/raw.component';
 import { MansoryComponent } from './pages/portfolio/mansory/mansory.component';
 import { FlexComponent } from './pages/portfolio/flex/flex.component';
 import { CategoriesComponent } from './shared/categories/categories.component';
+import { PostComponent } from './pages/blog/post/post.component';
+import { ItemComponent } from './pages/portfolio/item/item.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { CategoriesComponent } from './shared/categories/categories.component';
     MansoryComponent,
     FlexComponent,
     CategoriesComponent,
+    PostComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,8 @@ import { FlexComponent } from './pages/portfolio/flex/flex.component';
 import { AltComponent } from './pages/portfolio/alt/alt.component';
 import { RawComponent } from './pages/portfolio/raw/raw.component';
 import { MansoryComponent } from './pages/portfolio/mansory/mansory.component';
+import { PostComponent } from './pages/blog/post/post.component';
+import { ItemComponent } from './pages/portfolio/item/item.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -17,9 +19,11 @@ const routes: Routes = [
   { path: 'portfolio/alt', component: AltComponent},
   { path: 'portfolio/raw', component: RawComponent},
   { path: 'portfolio/mansory', component: MansoryComponent},
+  { path: 'portfolio/item/:id', component: ItemComponent},
 
   { path: 'about', component: AboutComponent},
   { path: 'blog', component: BlogComponent},
+  { path: 'blog/post/:id', component: PostComponent},
   { path: 'contact', component: ContactComponent},
 ];
 
