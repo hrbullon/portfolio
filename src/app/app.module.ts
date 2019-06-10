@@ -10,6 +10,11 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { AltComponent } from './pages/portfolio/alt/alt.component';
+import { RawComponent } from './pages/portfolio/raw/raw.component';
+import { MansoryComponent } from './pages/portfolio/mansory/mansory.component';
+import { FlexComponent } from './pages/portfolio/flex/flex.component';
+import { CategoriesComponent } from './shared/categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { BlogComponent } from './pages/blog/blog.component';
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    AltComponent,
+    RawComponent,
+    MansoryComponent,
+    FlexComponent,
+    CategoriesComponent,
   ],
   imports: [
     BrowserModule,
